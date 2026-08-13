@@ -1,4 +1,4 @@
-cod,Producto,rango1,rango2,rango3,rango4,tipo,Categoria
+cod,nombre,rango1,rango2,rango3,rango4,tipo,cat
 PRO-01,Taza 11oz Blanca (Lisa),85.0,55.0,45.0,38.0,pieza,Promocionales
 PRO-02,Taza Fondo Color 11oz,95.0,65.0,55.0,48.0,pieza,Promocionales
 PRO-03,Taza Térmica / Mágica,120.0,85.0,75.0,68.0,pieza,Promocionales
@@ -31,7 +31,7 @@ DIG-04,Bond 90g (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
 DIG-05,Couché 150g Solo Frente (Carta),8.0,6.0,4.5,3.0,pieza,Impresión Digital
 DIG-06,Couché 150g Solo Frente (Tabloide),15.0,10.0,8.0,6.0,pieza,Impresión Digital
 DIG-07,Couché 300g Solo Frente (Tabloide),22.0,16.0,14.0,12.0,pieza,Impresión Digital
-DIG-08,Couché Adhesivo UPM (Tabloide),20.0,15.0,12.0,10.0,pieza,Impresión Digital
+DIG-08,Couché Adhesivo UPM (Tabloide),20.0,15.0,12.0,10.0,pieza,Impresion Digital
 DIG-09,Papel Adhesivo Plateado / Dorado,30.0,24.0,21.0,19.0,pieza,Impresión Digital
 DIG-10,Polipropileno Blanco / Transparente,35.0,28.0,25.0,23.0,pieza,Impresión Digital
 DIG-11,Laminado Mate / Brillante (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
@@ -44,3 +44,6 @@ DIG-17,Volantes 1/2 Carta 4x1 (Millar),350.0,300.0,280.0,270.0,millar,Offset / O
 DIG-18,Volantes Carta 4x1 (Millar),650.0,580.0,550.0,540.0,millar,Offset / Offset Digital
 DIG-19,Remisión 1/2 Carta Original y Copia,1200.0,1050.0,980.0,950.0,pieza,Offset / Offset Digital
 DIG-20,Recetas Médicas (Talonario Original),700.0,620.0,590.0,580.0,pieza,Offset / Offset Digital
+VIN-M01,Vinil Textil Básico (Metro Lineal),150.0,130.0,115.0,100.0,m_lineal,Viniles por Metro
+VIN-M02,Vinil Textil Detalle (Metro Lineal),190.0,165.0,150.0,135.0,m_lineal,Viniles por Metro
+OTR-01,Servicio de Planchado / Aplicación,40.0,30.0,25.0,20.0,pieza,Otros
