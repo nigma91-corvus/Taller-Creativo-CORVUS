@@ -2,48 +2,109 @@ cod,nombre,rango1,rango2,rango3,rango4,tipo,cat
 PRO-01,Taza 11oz Blanca (Lisa),85.0,55.0,45.0,38.0,pieza,Promocionales
 PRO-02,Taza Fondo Color 11oz,95.0,65.0,55.0,48.0,pieza,Promocionales
 PRO-03,Taza Térmica / Mágica,120.0,85.0,75.0,68.0,pieza,Promocionales
-PRO-04,Taza Metálica Color,130.0,95.0,85.0,78.0,pieza,Promocionales
-PRO-05,Rompecabezas Personalizado,110.0,80.0,70.0,62.0,pieza,Promocionales
-PRO-06,Mouse Pad Sublimado,90.0,65.0,55.0,48.0,pieza,Promocionales
-PRO-07,Gorra con Sublimación,95.0,70.0,60.0,52.0,pieza,Promocionales
-PRO-08,Fotobotón 5.5cm,45.0,25.0,18.0,12.0,pieza,Promocionales
-PRO-09,Fotobotón 7.5cm,50.0,28.0,20.0,14.0,pieza,Promocionales
-PRO-10,Credencial PVC (Pqte 10),120.0,90.0,75.0,65.0,paquete,Promocionales
-DTF-01,DTF Textil (Metro Lineal 58x100cm),350.0,300.0,280.0,250.0,metro,DTF
-DTF-02,DTF UV (Metro Lineal 58x100cm),750.0,700.0,650.0,600.0,metro,DTF
-DTF-03,DTF UV 28x100cm,450.0,400.0,380.0,350.0,metro,DTF
-DTF-04,DTF UV Planilla Tabloide (27x43cm),280.0,250.0,230.0,210.0,pieza,DTF
-DTF-05,DTF UV Planilla Carta (21x27cm),220.0,200.0,190.0,175.0,pieza,DTF
-GRA-01,Lona Front 13 oz (M²),80.0,55.0,45.0,38.0,m2,Gran Formato
-GRA-02,Lona Backlite (M²),150.0,120.0,100.0,90.0,m2,Gran Formato
-GRA-03,Lona Mesh (M²),220.0,180.0,160.0,140.0,m2,Gran Formato
-GRA-04,Tela Banner (M²),220.0,180.0,165.0,150.0,m2,Gran Formato
-GRA-05,Película Backlite (M²),250.0,200.0,180.0,160.0,m2,Gran Formato
-GRA-06,Floor Graphic (M²),380.0,320.0,290.0,260.0,m2,Gran Formato
-GRA-07,Vinil Brillante / Mate (M²),120.0,90.0,75.0,65.0,m2,Gran Formato
-GRA-08,Vinil Transparente (M²),140.0,110.0,90.0,80.0,m2,Gran Formato
-GRA-09,Vinil Microperforado (M²),250.0,200.0,180.0,160.0,m2,Gran Formato
-GRA-10,Vinil Electrostático (M²),200.0,160.0,140.0,120.0,m2,Gran Formato
-DIG-01,Bond 75g (Carta),6.0,4.0,2.5,1.8,pieza,Impresión Digital
-DIG-02,Bond 75g (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
-DIG-03,Bond 90g (Carta),6.0,4.0,2.5,1.5,pieza,Impresión Digital
-DIG-04,Bond 90g (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
-DIG-05,Couché 150g Solo Frente (Carta),8.0,6.0,4.5,3.0,pieza,Impresión Digital
-DIG-06,Couché 150g Solo Frente (Tabloide),15.0,10.0,8.0,6.0,pieza,Impresión Digital
-DIG-07,Couché 300g Solo Frente (Tabloide),22.0,16.0,14.0,12.0,pieza,Impresión Digital
-DIG-08,Couché Adhesivo UPM (Tabloide),20.0,15.0,12.0,10.0,pieza,Impresion Digital
-DIG-09,Papel Adhesivo Plateado / Dorado,30.0,24.0,21.0,19.0,pieza,Impresión Digital
-DIG-10,Polipropileno Blanco / Transparente,35.0,28.0,25.0,23.0,pieza,Impresión Digital
-DIG-11,Laminado Mate / Brillante (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
-DIG-12,Laminado Soft Touch (Tabloide),15.0,11.0,9.0,8.0,pieza,Impresión Digital
-DIG-13,Encapsulado Carta 5mil,45.0,35.0,30.0,25.0,pieza,Impresión Digital
-DIG-14,Encapsulado Tabloide 5mil,80.0,65.0,60.0,57.0,pieza,Impresión Digital
-DIG-15,Tarjetas Couche 4x1 (Millar),150.0,130.0,120.0,110.0,millar,Offset / Offset Digital
-DIG-16,Tarjetas Laminadas 4x4 (Millar),250.0,210.0,190.0,180.0,millar,Offset / Offset Digital
-DIG-17,Volantes 1/2 Carta 4x1 (Millar),350.0,300.0,280.0,270.0,millar,Offset / Offset Digital
-DIG-18,Volantes Carta 4x1 (Millar),650.0,580.0,550.0,540.0,millar,Offset / Offset Digital
-DIG-19,Remisión 1/2 Carta Original y Copia,1200.0,1050.0,980.0,950.0,pieza,Offset / Offset Digital
-DIG-20,Recetas Médicas (Talonario Original),700.0,620.0,590.0,580.0,pieza,Offset / Offset Digital
-VIN-M01,Vinil Textil Básico (Metro Lineal),150.0,130.0,115.0,100.0,m_lineal,Viniles por Metro
-VIN-M02,Vinil Textil Detalle (Metro Lineal),190.0,165.0,150.0,135.0,m_lineal,Viniles por Metro
-OTR-01,Servicio de Planchado / Aplicación,40.0,30.0,25.0,20.0,pieza,Otros
+PRO-04,Taza Metálica Color,120.0,85.0,75.0,68.0,pieza,Promocionales
+PRO-05,Gorra Trucker (Lisa),65.0,50.0,42.0,35.0,pieza,Promocionales
+PRO-06,Playera Liso Algodón (Cuello Redondo),110.0,95.0,85.0,78.0,pieza,Promocionales
+PRO-07,Playera Tipo Polo,160.0,140.0,130.0,120.0,pieza,Promocionales
+PRO-08,Sudadera con Capucha (Lisa),290.0,260.0,240.0,220.0,pieza,Promocionales
+PRO-09,Rompecabezas Sublimación,80.0,60.0,50.0,45.0,pieza,Promocionales
+PRO-10,Mouse Pad,75.0,55.0,45.0,38.0,pieza,Promocionales
+PRO-11,Fotoboton 5.5cm,15.0,10.0,8.0,6.5,pieza,Promocionales
+PRO-12,Fotoboton 7.5cm,18.0,12.0,9.0,7.5,pieza,Promocionales
+PRO-13,Termo Aluminio / Deportivo,140.0,110.0,95.0,85.0,pieza,Promocionales
+CRE-01,Credencial PVC Paquete / Pieza,45.0,25.0,18.0,12.0,pieza,Credenciales y Plásticos
+CRE-02,Credencial Sublimada Color Oro,55.0,35.0,28.0,22.0,pieza,Credenciales y Plásticos
+CRE-03,Credencial Sublimada Color Plata,55.0,35.0,28.0,22.0,pieza,Credenciales y Plásticos
+CRE-04,Cinta / Lanyard Porta-gafete,35.0,25.0,20.0,15.0,pieza,Credenciales y Plásticos
+DTF-01,DTF Textil 58x100 cm (Metro Lineal),320.0,280.0,250.0,220.0,m_lineal,DTF
+DTF-02,DTF UV 58x100 cm (Metro Lineal),700.0,650.0,600.0,550.0,m_lineal,DTF
+DTF-03,DTF UV Metro (28 cm),420.0,380.0,340.0,300.0,m_lineal,DTF
+DTF-04,DTF UV Carta (21x27 cm),220.0,190.0,170.0,150.0,pieza,DTF
+DTF-05,DTF UV Tabloide (27x43 cm),260.0,230.0,200.0,180.0,pieza,DTF
+DIG-01,Bond 75g (Carta),1.8,1.8,1.8,1.8,pieza,Impresión Digital
+DIG-02,Bond 75g (Tabloide),4.0,4.0,4.0,4.0,pieza,Impresión Digital
+DIG-03,Bond 90g (Carta),1.5,1.5,1.5,1.5,pieza,Impresión Digital
+DIG-04,Bond 90g (Tabloide),4.0,4.0,4.0,4.0,pieza,Impresión Digital
+DIG-05,Bond 120g (Carta),1.5,1.5,1.5,1.5,pieza,Impresión Digital
+DIG-06,Bond 120g (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-07,Cartulina Bristol 180g (Carta),2.0,2.0,2.0,2.0,pieza,Impresión Digital
+DIG-08,Cartulina Bristol 180g (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-09,Cartulina Bristol 200g (Carta),2.0,2.0,2.0,2.0,pieza,Impresión Digital
+DIG-10,Cartulina Bristol 200g (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-11,Cartulina Bristol 240g (Carta),3.0,3.0,3.0,3.0,pieza,Impresión Digital
+DIG-12,Cartulina Bristol 240g (Tabloide),5.5,5.5,5.5,5.5,pieza,Impresión Digital
+DIG-13,Cartulina Bristol 340g (Carta),3.0,3.0,3.0,3.0,pieza,Impresión Digital
+DIG-14,Cartulina Bristol 340g (Tabloide),6.5,6.5,6.5,6.5,pieza,Impresión Digital
+DIG-15,Cartulina Opalina 240g (Carta),3.0,3.0,3.0,3.0,pieza,Impresión Digital
+DIG-16,Cartulina Opalina 240g (Tabloide),5.5,5.5,5.5,5.5,pieza,Impresión Digital
+DIG-17,Cartulina Opalina 350g (Carta),3.5,3.5,3.5,3.5,pieza,Impresión Digital
+DIG-18,Cartulina Opalina 350g (Tabloide),6.5,6.5,6.5,6.5,pieza,Impresión Digital
+DIG-19,Cartulina Riber Blanco/Crema (Carta),3.5,3.5,3.5,3.5,pieza,Impresión Digital
+DIG-20,Cartulina Riber Blanco/Crema (Tabloide),6.5,6.5,6.5,6.5,pieza,Impresión Digital
+DIG-21,Papel Riber Blanco/Crema (Carta),2.5,2.5,2.5,2.5,pieza,Impresión Digital
+DIG-22,Papel Riber Blanco/Crema (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-23,Papel Lino Tela 120g (Carta),2.5,2.5,2.5,2.5,pieza,Impresión Digital
+DIG-24,Papel Lino Tela 120g (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-25,Papel Lino Tela 240g (Carta),2.5,2.5,2.5,2.5,pieza,Impresión Digital
+DIG-26,Papel Lino Tela 240g (Tabloide),4.5,4.5,4.5,4.5,pieza,Impresión Digital
+DIG-27,Couché 150g Solo Frente,6.0,6.0,6.0,6.0,pieza,Impresión Digital
+DIG-28,Couché 150g Frente/Vuelta,7.0,7.0,7.0,7.0,pieza,Impresión Digital
+DIG-29,Couché 300g Solo Frente,12.0,12.0,12.0,12.0,pieza,Impresión Digital
+DIG-30,Couché 300g Frente/Vuelta,14.0,14.0,14.0,14.0,pieza,Impresión Digital
+ADH-01,Couché Adhesivo UPM (1 a 4 pzas),10.0,9.0,9.0,9.0,pieza,Adhesivos
+ADH-02,Papel Adhesivo Dimasa,12.0,12.0,12.0,12.0,pieza,Adhesivos
+ADH-03,Papel Adhesivo Plateado,19.0,19.0,19.0,19.0,pieza,Adhesivos
+ADH-04,Papel Adhesivo Dorado,19.0,19.0,19.0,19.0,pieza,Adhesivos
+ADH-05,Papel Adhesivo Refrigeración,17.0,17.0,17.0,17.0,pieza,Adhesivos
+ADH-06,Papel Adhesivo Holográfico,23.0,20.0,20.0,20.0,pieza,Adhesivos
+ADH-07,Papel Adhesivo Kraft,13.0,10.0,10.0,10.0,pieza,Adhesivos
+ADH-08,Polipropileno Blanco,23.0,10.0,10.0,10.0,pieza,Adhesivos
+ADH-09,Polipropileno Transparente,23.0,10.0,10.0,10.0,pieza,Adhesivos
+ADH-10,Polipropileno Plata,30.0,20.0,20.0,20.0,pieza,Adhesivos
+ADH-11,Polipropileno Oro,38.0,20.0,20.0,20.0,pieza,Adhesivos
+ADH-12,Polipropileno Holográfico,50.0,20.0,20.0,20.0,pieza,Adhesivos
+ADH-13,Adhesivo Texturizado,13.0,10.0,10.0,10.0,pieza,Adhesivos
+ADH-14,Vinil Fotoluminiscente,180.0,180.0,180.0,180.0,pieza,Adhesivos
+BAN-01,Banner 33x95cm (150-200g) Frente,24.0,24.0,24.0,24.0,pieza,Formatos Banner
+BAN-02,Banner 33x95cm (150-200g) F/V,39.0,39.0,39.0,39.0,pieza,Formatos Banner
+BAN-03,Banner 33x95cm (300g) Frente,25.0,25.0,25.0,25.0,pieza,Formatos Banner
+BAN-04,Banner 33x95cm (300g) F/V,40.0,40.0,40.0,40.0,pieza,Formatos Banner
+BAN-05,Banner 30x70cm (150-200g) Frente,19.0,19.0,19.0,19.0,pieza,Formatos Banner
+BAN-06,Banner 30x70cm (150-200g) F/V,31.0,31.0,31.0,31.0,pieza,Formatos Banner
+BAN-07,Banner 30x70cm (300g) Frente,20.0,20.0,20.0,20.0,pieza,Formatos Banner
+BAN-08,Banner 30x70cm (300g) F/V,33.0,33.0,33.0,33.0,pieza,Formatos Banner
+BAN-09,Banner 31x91cm Opalina Bco/Crema Frente,25.0,25.0,25.0,25.0,pieza,Formatos Banner
+BAN-10,Banner 31x91cm Opalina Bco/Crema F/V,40.0,40.0,40.0,40.0,pieza,Formatos Banner
+BAN-11,Banner 33x66cm Papel Adhesivo,17.0,17.0,17.0,17.0,pieza,Formatos Banner
+BAN-12,Banner 33x51cm Papel Adhesivo,13.0,13.0,13.0,13.0,pieza,Formatos Banner
+GF-01,Lona Front 13 oz (M²),38.0,38.0,38.0,38.0,m2,Gran Formato
+GF-02,Lona Backlite (M²),90.0,90.0,90.0,90.0,m2,Gran Formato
+GF-03,Lona Mesh (M²),160.0,160.0,160.0,160.0,m2,Gran Formato
+GF-04,Tela Banner (M²),165.0,165.0,165.0,165.0,m2,Gran Formato
+GF-05,Película Backlite (M²),180.0,180.0,180.0,180.0,m2,Gran Formato
+GF-06,Floor Graphic (M²),290.0,290.0,290.0,290.0,m2,Gran Formato
+GF-07,Vinil Brillante (M²),75.0,75.0,75.0,75.0,m2,Gran Formato
+GF-08,Vinil Mate (M²),75.0,75.0,75.0,75.0,m2,Gran Formato
+GF-09,Vinil Transparente (M²),90.0,90.0,90.0,90.0,m2,Gran Formato
+GF-10,Vinil Microperforado (M²),180.0,180.0,180.0,180.0,m2,Gran Formato
+GF-11,Vinil Electrostático Blanco (M²),140.0,140.0,140.0,140.0,m2,Gran Formato
+GF-12,Vinil Electrostático Transparente (M²),140.0,140.0,140.0,140.0,m2,Gran Formato
+GF-13,Papel Fotográfico 150x60 cm,120.0,120.0,120.0,120.0,pieza,Gran Formato
+GF-14,Impresión en Rígido (1.22x2.44m),1400.0,1400.0,1400.0,1400.0,pieza,Gran Formato
+ACA-01,Laminado Mate (Frente),4.0,4.0,4.0,4.0,pieza,Acabados
+ACA-02,Laminado Mate (F/V),8.0,8.0,8.0,8.0,pieza,Acabados
+ACA-03,Laminado Brillante (Frente),4.0,4.0,4.0,4.0,pieza,Acabados
+ACA-04,Laminado Brillante (F/V),8.0,8.0,8.0,8.0,pieza,Acabados
+ACA-05,Laminado Soft Touch,8.0,8.0,8.0,8.0,pieza,Acabados
+ACA-06,Laminado Glitter,9.0,9.0,9.0,9.0,pieza,Acabados
+ACA-07,FX Holográficos,7.0,7.0,7.0,7.0,pieza,Acabados
+ACA-08,Encapsulado Carta 5mil,30.0,30.0,30.0,30.0,pieza,Acabados
+ACA-09,Encapsulado Carta 10mil,34.0,34.0,34.0,34.0,pieza,Acabados
+ACA-10,Encapsulado 30x45cm 5mil,57.0,57.0,57.0,57.0,pieza,Acabados
+ACA-11,Encapsulado 30x45cm 10mil,62.0,62.0,62.0,62.0,pieza,Acabados
+OFF-01,Millar Tarjetas Couché 4x1,150.0,130.0,120.0,110.0,millar,Offset y Papelería
+OFF-02,Millar Tarjetas Laminadas 4x4,250.0,210.0,190.0,180.0,millar,Offset y Papelería
+OFF-03,Millar Volantes 1/4 Carta 4x1,350.0,300.0,280.0,270.0,millar,Offset y Papelería
+OFF-04,Millar Volantes Carta 4x1,650.0,580.0,550.0,540.0,millar,Offset y Papelería
+OFF-05,Remisión 1/2 Carta Original y Copia,1200.0,1050.0,980.0,950.0,pieza,Offset y Papelería
+OFF-06,Recetas Médicas Talonario Original,700.0,620.0,590.0,580.0,pieza,Offset y Papelería
