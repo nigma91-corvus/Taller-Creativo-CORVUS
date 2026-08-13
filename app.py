@@ -607,41 +607,58 @@ with tab1:
 with tab2:
     st.markdown("### 🖼️ GALERÍA DE MUESTRAS Y TRABAJOS TERMINADOS")
     
+    if not os.path.exists(GALERIA_DIR):
+        os.makedirs(GALERIA_DIR, exist_ok=True)
+    
     col_g1, col_g2 = st.columns([1, 2])
     with col_g1:
         st.markdown("#### **Subir Nueva Fotografía de Trabajo**")
         cat_foto = st.selectbox("Categoría de la Muestra:", list(GENEROS_PREFIX.keys()), key="cat_foto_key")
-        nom_muestra = st.text_input("Título / Descripción Corta:", "Muestra Grabado Láser MDF")
-        foto_archivo = st.file_uploader("Tomar Foto o Cargar Imagen:", type=["png", "jpg", "jpeg"])
+        nom_muestra = st.text_input("Título / Descripción Corta:", "Muestra Grabado Láser MDF", key="nom_muestra_key")
+        foto_archivo = st.file_uploader("Tomar Foto o Cargar Imagen:", type=["png", "jpg", "jpeg"], key="foto_subida_key")
         
         if st.button("💾 GUARDAR EN GALERÍA"):
-            if foto_archivo and nom_muestra:
-                f_name = f"{GENEROS_PREFIX[cat_foto]}_{datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
-                r_dest = os.path.join(GALERIA_DIR, f_name)
-                img = Image.open(foto_archivo)
-                img.convert("RGB").save(r_dest)
-                st.success("¡Imagen guardada en la Galería General!")
-                st.rerun()
+            if foto_archivo is not None:
+                try:
+                    f_name = f"{GENEROS_PREFIX[cat_foto]}_{datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
+                    r_dest = os.path.join(GALERIA_DIR, f_name)
+                    
+                    # Leer y convertir imagen de forma segura
+                    img = Image.open(foto_archivo)
+                    if img.mode in ("RGBA", "P"):
+                        img = img.convert("RGB")
+                    else:
+                        img = img.convert("RGB")
+                        
+                    img.save(r_dest, "JPEG")
+                    st.success("¡Imagen guardada exitosamente en la Galería!")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Error al guardar la imagen: {e}")
+            else:
+                st.warning("Por favor selecciona o toma una fotografía antes de guardar.")
 
     col_der_galeria = col_g2
     with col_der_galeria:
         st.markdown("#### **Muestrario para Clientes en Mostrador**")
-        cat_filtro = st.selectbox("Filtrar Muestras por Categoría:", ["TODAS"] + list(GENEROS_PREFIX.keys()))
+        cat_filtro = st.selectbox("Filtrar Muestras por Categoría:", ["TODAS"] + list(GENEROS_PREFIX.keys()), key="filtro_cat_galeria")
         
-        fotos_existentes = [f for f in os.listdir(GALERIA_DIR) if f.endswith(('.jpg', '.png', '.jpeg'))]
-        if cat_filtro != "TODAS":
-            pref = GENEROS_PREFIX[cat_filtro] + "_"
-            fotos_existentes = [f for f in fotos_existentes if f.startswith(pref)]
+        if os.path.exists(GALERIA_DIR):
+            fotos_existentes = [f for f in os.listdir(GALERIA_DIR) if f.lower().endswith(('.jpg', '.png', '.jpeg'))]
+            if cat_filtro != "TODAS":
+                pref = GENEROS_PREFIX[cat_filtro] + "_"
+                fotos_existentes = [f for f in fotos_existentes if f.startswith(pref)]
 
-        if fotos_existentes:
-            cols_grid = st.columns(3)
-            for idx, f_item in enumerate(fotos_existentes):
-                path_f = os.path.join(GALERIA_DIR, f_item)
-                with cols_grid[idx % 3]:
-                    st.image(path_f, use_container_width=True, caption=f_item.split(".")[0])
+            if fotos_existentes:
+                cols_grid = st.columns(3)
+                for idx, f_item in enumerate(fotos_existentes):
+                    path_f = os.path.join(GALERIA_DIR, f_item)
+                    with cols_grid[idx % 3]:
+                        st.image(path_f, use_container_width=True, caption=f_item.split(".")[0])
+            else:
+                st.info("No hay muestras registradas en esta categoría.")
         else:
-            st.info("No hay muestras registradas en esta categoría.")
-
+            st.info("La carpeta de galería está vacía.")
 # ------------------------------------------
 # TAB 3: GESTIÓN DE CATÁLOGO Y EDICIÓN MASIVA
 # ------------------------------------------
