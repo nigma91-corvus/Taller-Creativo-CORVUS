@@ -1,0 +1,46 @@
+cod,nombre,rango1,rango2,rango3,rango4,tipo,cat
+PRO-01,Taza 11oz Blanca (Lisa),85.0,55.0,45.0,38.0,pieza,Promocionales
+PRO-02,Taza Fondo Color 11oz,95.0,65.0,55.0,48.0,pieza,Promocionales
+PRO-03,Taza Térmica / Mágica,120.0,85.0,75.0,68.0,pieza,Promocionales
+PRO-04,Taza Metálica Color,120.0,85.0,75.0,68.0,pieza,Promocionales
+PRO-05,Gorra Trucker (Lisa),65.0,50.0,42.0,35.0,pieza,Promocionales
+PRO-06,Playera Liso Algodón (Cuello Redondo),110.0,95.0,85.0,78.0,pieza,Promocionales
+PRO-07,Playera Tipo Polo,160.0,140.0,130.0,120.0,pieza,Promocionales
+PRO-08,Sudadera con Capucha (Lisa),290.0,260.0,240.0,220.0,pieza,Promocionales
+PRO-09,Rompecabezas Sublimación,80.0,60.0,50.0,45.0,pieza,Promocionales
+PRO-10,Mouse Pad,75.0,55.0,45.0,38.0,pieza,Promocionales
+PRO-11,Fotoboton 5.5cm,15.0,10.0,8.0,6.5,pieza,Promocionales
+PRO-12,Fotoboton 7.5cm,18.0,12.0,9.0,7.5,pieza,Promocionales
+PRO-13,Termo Aluminio / Deportivo,140.0,110.0,95.0,85.0,pieza,Promocionales
+CRE-01,Credencial PVC Paquete / Pieza,45.0,25.0,18.0,12.0,pieza,Credenciales y Plásticos
+CRE-02,Credencial Sublimada Color Oro,55.0,35.0,28.0,22.0,pieza,Credenciales y Plásticos
+CRE-03,Credencial Sublimada Color Plata,55.0,35.0,28.0,22.0,pieza,Credenciales y Plásticos
+CRE-04,Cinta / Lanyard Porta-gafete,35.0,25.0,20.0,15.0,pieza,Credenciales y Plásticos
+DTF-01,DTF Textil 58x100 cm (Metro Lineal),320.0,280.0,250.0,220.0,m_lineal,DTF
+DTF-02,DTF UV 58x100 cm (Metro Lineal),700.0,650.0,600.0,550.0,m_lineal,DTF
+DTF-03,DTF UV Metro (28 cm),420.0,380.0,340.0,300.0,m_lineal,DTF
+DTF-04,DTF UV Carta (21x27 cm),220.0,190.0,170.0,150.0,pieza,DTF
+DTF-05,DTF UV Tabloide (27x43 cm),260.0,230.0,200.0,180.0,pieza,DTF
+DIG-01,Tabloide Couché 150g (Solo Frente),10.0,7.0,6.0,5.0,pieza,Impresión Digital
+DIG-02,Tabloide Couché 300g (Solo Frente),16.0,13.0,11.0,9.5,pieza,Impresión Digital
+DIG-03,Tabloide Couché 300g (Frente y Vuelta),22.0,18.0,15.0,13.0,pieza,Impresión Digital
+DIG-04,Tabloide Adhesivo UPM,15.0,11.0,9.5,8.0,pieza,Impresión Digital
+DIG-05,Tabloide Adhesivo Dorado / Plateado,25.0,20.0,17.0,15.0,pieza,Impresión Digital
+DIG-06,Tabloide Adhesivo Holográfico,30.0,25.0,22.0,20.0,pieza,Impresión Digital
+DIG-07,Tabloide Polipropileno Blanco / Transparente,30.0,25.0,22.0,20.0,pieza,Impresión Digital
+DIG-08,Tabloide Cartulina Opalina 350g,18.0,15.0,13.0,11.0,pieza,Impresión Digital
+GF-01,Lona Front 13 oz (m²),60.0,45.0,38.0,32.0,m2,Gran Formato y Banners
+GF-02,Lona Backlite (m²),120.0,100.0,90.0,80.0,m2,Gran Formato y Banners
+GF-03,Lona Mesh (m²),200.0,170.0,150.0,135.0,m2,Gran Formato y Banners
+GF-04,Vinil Brillante / Mate (m²),110.0,85.0,75.0,65.0,m2,Gran Formato y Banners
+GF-05,Vinil Microperforado (m²),180.0,150.0,135.0,120.0,m2,Gran Formato y Banners
+GF-06,Banner 60x160 cm (Estructura + Lona),250.0,220.0,200.0,180.0,pieza,Gran Formato y Banners
+OFF-01,Millar Tarjetas Couché 4x1,150.0,120.0,110.0,95.0,pieza,Offset y Papelería
+OFF-02,Millar Volantes 1/4 Carta 4x1,200.0,160.0,140.0,125.0,pieza,Offset y Papelería
+SUB-01,Pliego Papel para Sublimar,45.0,38.0,32.0,28.0,pieza,Sublimación
+SUB-02,Hoja Carta Papel Sublimación,15.0,12.0,9.0,7.0,pieza,Sublimación
+LAS-01,Corte Láser MDF 3mm (Servicio/Minuto),20.0,16.0,14.0,12.0,pieza,Corte y Grabado Láser
+LAS-02,Corte Láser Acrílico (Servicio/Minuto),25.0,22.0,18.0,15.0,pieza,Corte y Grabado Láser
+VIN-M01,Vinil Textil Básico (Metro Lineal),150.0,130.0,115.0,100.0,m_lineal,Viniles por Metro
+VIN-M02,Vinil Textil Detalle (Metro Lineal),190.0,165.0,150.0,135.0,m_lineal,Viniles por Metro
+OTR-01,Servicio de Planchado / Aplicación,40.0,30.0,25.0,20.0,pieza,Otros
