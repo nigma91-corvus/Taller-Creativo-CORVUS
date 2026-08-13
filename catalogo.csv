@@ -1,104 +1,46 @@
-cod,Producto,Categoria,Precio,Unidad,rango1,rango2,rango3,rango4,tipo,descripcion
-1,Bond 75g (Carta),Impresión Digital,1.8,Pza,1.8,1.8,1.8,1.8,Impresion,Papel bond 75g tamaño carta
-2,Bond 75g (Tabloide),Impresión Digital,4.0,Pza,4.0,4.0,4.0,4.0,Impresion,Papel bond 75g tamaño tabloide
-3,Bond 90g (Carta),Impresión Digital,1.5,Pza,1.5,1.5,1.5,1.5,Impresion,Papel bond 90g tamaño carta
-4,Bond 90g (Tabloide),Impresión Digital,4.0,Pza,4.0,4.0,4.0,4.0,Impresion,Papel bond 90g tamaño tabloide
-5,Bond 120g (Carta),Impresión Digital,1.5,Pza,1.5,1.5,1.5,1.5,Impresion,Papel bond 120g tamaño carta
-6,Bond 120g (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Papel bond 120g tamaño tabloide
-7,Cartulina Bristol 180g (Carta),Impresión Digital,2.0,Pza,2.0,2.0,2.0,2.0,Impresion,Cartulina bristol 180g tamaño carta
-8,Cartulina Bristol 180g (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Cartulina bristol 180g tamaño tabloide
-9,Cartulina Bristol 200g (Carta),Impresión Digital,2.0,Pza,2.0,2.0,2.0,2.0,Impresion,Cartulina bristol 200g tamaño carta
-10,Cartulina Bristol 200g (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Cartulina bristol 200g tamaño tabloide
-11,Cartulina Bristol 240g (Carta),Impresión Digital,3.0,Pza,3.0,3.0,3.0,3.0,Impresion,Cartulina bristol 240g tamaño carta
-12,Cartulina Bristol 240g (Tabloide),Impresión Digital,5.5,Pza,5.5,5.5,5.5,5.5,Impresion,Cartulina bristol 240g tamaño tabloide
-13,Cartulina Bristol 340g (Carta),Impresión Digital,3.0,Pza,3.0,3.0,3.0,3.0,Impresion,Cartulina bristol 340g tamaño carta
-14,Cartulina Bristol 340g (Tabloide),Impresión Digital,6.5,Pza,6.5,6.5,6.5,6.5,Impresion,Cartulina bristol 340g tamaño tabloide
-15,Cartulina Opalina 240g (Carta),Impresión Digital,3.0,Pza,3.0,3.0,3.0,3.0,Impresion,Cartulina opalina 240g tamaño carta
-16,Cartulina Opalina 240g (Tabloide),Impresión Digital,5.5,Pza,5.5,5.5,5.5,5.5,Impresion,Cartulina opalina 240g tamaño tabloide
-17,Cartulina Opalina 350g (Carta),Impresión Digital,3.5,Pza,3.5,3.5,3.5,3.5,Impresion,Cartulina opalina 350g tamaño carta
-18,Cartulina Opalina 350g (Tabloide),Impresión Digital,6.5,Pza,6.5,6.5,6.5,6.5,Impresion,Cartulina opalina 350g tamaño tabloide
-19,Cartulina Riber Blanco/Crema (Carta),Impresión Digital,3.5,Pza,3.5,3.5,3.5,3.5,Impresion,Cartulina riber blanco o crema carta
-20,Cartulina Riber Blanco/Crema (Tabloide),Impresión Digital,6.5,Pza,6.5,6.5,6.5,6.5,Impresion,Cartulina riber blanco o crema tabloide
-21,Papel Riber Blanco/Crema (Carta),Impresión Digital,2.5,Pza,2.5,2.5,2.5,2.5,Impresion,Papel riber blanco o crema carta
-22,Papel Riber Blanco/Crema (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Papel riber blanco o crema tabloide
-23,Papel Lino Tela 120g (Carta),Impresión Digital,2.5,Pza,2.5,2.5,2.5,2.5,Impresion,Papel lino tela 120g carta
-24,Papel Lino Tela 120g (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Papel lino tela 120g tabloide
-25,Papel Lino Tela 240g (Carta),Impresión Digital,2.5,Pza,2.5,2.5,2.5,2.5,Impresion,Papel lino tela 240g carta
-26,Papel Lino Tela 240g (Tabloide),Impresión Digital,4.5,Pza,4.5,4.5,4.5,4.5,Impresion,Papel lino tela 240g tabloide
-27,Couché 150g Solo Frente,Impresión Digital,6.0,Pza,6.0,6.0,6.0,6.0,Impresion,Couché 150g solo frente
-28,Couché 150g Frente/Vuelta,Impresión Digital,7.0,Pza,7.0,7.0,7.0,7.0,Impresion,Couché 150g frente y vuelta
-29,Couché 300g Solo Frente,Impresión Digital,12.0,Pza,12.0,12.0,12.0,12.0,Impresion,Couché 300g solo frente
-30,Couché 300g Frente/Vuelta,Impresión Digital,14.0,Pza,14.0,14.0,14.0,14.0,Impresion,Couché 300g frente y vuelta
-31,Couché Adhesivo UPM (1 a 4 pzas),Adhesivos,10.0,Pza,10.0,9.0,9.0,9.0,Adhesivo,Couché adhesivo UPM por pza
-32,Couché Adhesivo UPM (Volumen),Adhesivos,9.0,Pza,9.0,9.0,9.0,9.0,Adhesivo,Couché adhesivo UPM precio volumen
-33,Papel Adhesivo Dimasa,Adhesivos,12.0,Pza,12.0,12.0,12.0,12.0,Adhesivo,Papel adhesivo Dimasa
-34,Papel Adhesivo Plateado,Adhesivos,19.0,Pza,19.0,19.0,19.0,19.0,Adhesivo,Papel adhesivo plateado
-35,Papel Adhesivo Dorado,Adhesivos,19.0,Pza,19.0,19.0,19.0,19.0,Adhesivo,Papel adhesivo dorado
-36,Papel Adhesivo Refrigeración,Adhesivos,17.0,Pza,17.0,17.0,17.0,17.0,Adhesivo,Papel adhesivo especial refrigeración
-37,Papel Adhesivo Holográfico,Adhesivos,23.0,Pza,23.0,20.0,20.0,20.0,Adhesivo,Papel adhesivo holográfico
-38,Papel Adhesivo Kraft,Adhesivos,13.0,Pza,13.0,10.0,10.0,10.0,Adhesivo,Papel adhesivo kraft
-39,Polipropileno Blanco,Adhesivos,23.0,Pza,23.0,10.0,10.0,10.0,Adhesivo,Polipropileno adhesivo blanco
-40,Polipropileno Transparente,Adhesivos,23.0,Pza,23.0,10.0,10.0,10.0,Adhesivo,Polipropileno adhesivo transparente
-41,Polipropileno Plata,Adhesivos,30.0,Pza,30.0,20.0,20.0,20.0,Adhesivo,Polipropileno adhesivo plata
-42,Polipropileno Oro,Adhesivos,38.0,Pza,38.0,20.0,20.0,20.0,Adhesivo,Polipropileno adhesivo oro
-43,Polipropileno Holográfico,Adhesivos,50.0,Pza,50.0,20.0,20.0,20.0,Adhesivo,Polipropileno adhesivo holográfico
-44,Adhesivo Texturizado,Adhesivos,13.0,Pza,13.0,10.0,10.0,10.0,Adhesivo,Adhesivo texturizado fino
-45,Vinil Fotoluminiscente,Adhesivos,180.0,Pza,180.0,180.0,180.0,180.0,Adhesivo,Vinil fotoluminiscente
-46,Adhesivo Estándar (Eclick),Adhesivos,8.0,Pza,8.0,8.0,8.0,8.0,Adhesivo,Adhesivo estándar Eclick
-47,Banner 33x95cm (150-200g) Frente,Formatos Banner,24.0,Pza,24.0,24.0,24.0,24.0,Banner,Banner 33x95 solo frente
-48,Banner 33x95cm (150-200g) F/V,Formatos Banner,39.0,Pza,39.0,39.0,39.0,39.0,Banner,Banner 33x95 frente y vuelta
-49,Banner 33x95cm (300g) Frente,Formatos Banner,25.0,Pza,25.0,25.0,25.0,25.0,Banner,Banner 33x95 300g solo frente
-50,Banner 33x95cm (300g) F/V,Formatos Banner,40.0,Pza,40.0,40.0,40.0,40.0,Banner,Banner 33x95 300g frente y vuelta
-51,Banner 30x70cm (150-200g) Frente,Formatos Banner,19.0,Pza,19.0,19.0,19.0,19.0,Banner,Banner 30x70 solo frente
-52,Banner 30x70cm (150-200g) F/V,Formatos Banner,31.0,Pza,31.0,31.0,31.0,31.0,Banner,Banner 30x70 frente y vuelta
-53,Banner 30x70cm (300g) Frente,Formatos Banner,20.0,Pza,20.0,20.0,20.0,20.0,Banner,Banner 30x70 300g solo frente
-54,Banner 30x70cm (300g) F/V,Formatos Banner,33.0,Pza,33.0,33.0,33.0,33.0,Banner,Banner 30x70 300g frente y vuelta
-55,Banner 31x91cm Opalina Bco/Crema Frente,Formatos Banner,25.0,Pza,25.0,25.0,25.0,25.0,Banner,Banner opalina solo frente
-56,Banner 31x91cm Opalina Bco/Crema F/V,Formatos Banner,40.0,Pza,40.0,40.0,40.0,40.0,Banner,Banner opalina frente y vuelta
-57,Banner 33x66cm Papel Adhesivo,Formatos Banner,17.0,Pza,17.0,17.0,17.0,17.0,Banner,Banner 33x66 papel adhesivo
-58,Banner 33x51cm Papel Adhesivo,Formatos Banner,13.0,Pza,13.0,13.0,13.0,13.0,Banner,Banner 33x51 papel adhesivo
-59,Polypap 12 pts,Sintéticos,18.0,Pza,18.0,18.0,18.0,18.0,Sintetico,Polypap sintético 12 pts
-60,Polypap 14 pts,Sintéticos,20.0,Pza,20.0,20.0,20.0,20.0,Sintetico,Polypap sintético 14 pts
-61,Acetato,Sintéticos,32.0,Pza,32.0,32.0,32.0,32.0,Sintetico,Hoja de acetato
-62,Laminado Mate (Frente),Laminados,4.0,Pza,4.0,4.0,4.0,4.0,Acabado,Laminado mate solo frente
-63,Laminado Mate (Frente/Vuelta),Laminados,8.0,Pza,8.0,8.0,8.0,8.0,Acabado,Laminado mate frente y vuelta
-64,Laminado Brillante (Frente),Laminados,4.0,Pza,4.0,4.0,4.0,4.0,Acabado,Laminado brillante solo frente
-65,Laminado Brillante (Frente/Vuelta),Laminados,8.0,Pza,8.0,8.0,8.0,8.0,Acabado,Laminado brillante frente y vuelta
-66,Laminado Soft Touch,Laminados,8.0,Pza,8.0,8.0,8.0,8.0,Acabado,Laminado soft touch
-67,Laminado Glitter,Laminados,9.0,Pza,9.0,9.0,9.0,9.0,Acabado,Laminado brillante con glitter
-68,FX Holográficos (Gota Estrellas etc),Laminados,7.0,Pza,7.0,7.0,7.0,7.0,Acabado,Laminado efectos holográficos
-69,Encapsulado Carta 5mil (Mate/Brillante),Laminados,30.0,Pza,30.0,30.0,30.0,30.0,Acabado,Encapsulado rígido carta 5mil
-70,Encapsulado Carta 10mil (Mate/Brillante),Laminados,34.0,Pza,34.0,34.0,34.0,34.0,Acabado,Encapsulado rígido carta 10mil
-71,Encapsulado 30x45cm 5mil,Laminados,57.0,Pza,57.0,57.0,57.0,57.0,Acabado,Encapsulado 30x45cm 5mil
-72,Encapsulado 30x45cm 10mil,Laminados,62.0,Pza,62.0,62.0,62.0,62.0,Acabado,Encapsulado 30x45cm 10mil
-73,Lona Front 13 oz (M²),Gran Formato,38.0,M²,38.0,38.0,38.0,38.0,Gran Formato,Lona impresion gran formato por m²
-74,Lona Backlite (M²),Gran Formato,90.0,M²,90.0,90.0,90.0,90.0,Gran Formato,Lona translúcida backlite por m²
-75,Lona Mesh (M²),Gran Formato,160.0,M²,160.0,160.0,160.0,160.0,Gran Formato,Lona perforada mesh por m²
-76,Tela Banner (M²),Gran Formato,165.0,M²,165.0,165.0,165.0,165.0,Gran Formato,Tela banner por m²
-77,Película Backlite (M²),Gran Formato,180.0,M²,180.0,180.0,180.0,180.0,Gran Formato,Película backlite por m²
-78,Floor Graphic (M²),Gran Formato,290.0,M²,290.0,290.0,290.0,290.0,Gran Formato,Vinil antideslizante floor graphic m²
-79,Vinil Brillante (M²),Gran Formato,75.0,M²,75.0,75.0,75.0,75.0,Gran Formato,Vinil de impresión brillante por m²
-80,Vinil Mate (M²),Gran Formato,75.0,M²,75.0,75.0,75.0,75.0,Gran Formato,Vinil de impresión mate por m²
-81,Vinil Transparente (M²),Gran Formato,90.0,M²,90.0,90.0,90.0,90.0,Gran Formato,Vinil transparente por m²
-82,Vinil Microperforado (M²),Gran Formato,180.0,M²,180.0,180.0,180.0,180.0,Gran Formato,Vinil microperforado por m²
-83,Vinil Electrostático Blanco (M²),Gran Formato,140.0,M²,140.0,140.0,140.0,140.0,Gran Formato,Vinil electrostático blanco m²
-84,Vinil Electrostático Transparente (M²),Gran Formato,140.0,M²,140.0,140.0,140.0,140.0,Gran Formato,Vinil electrostático transparente m²
-85,Papel Fotográfico 150x60 cm,Gran Formato,120.0,Pza,120.0,120.0,120.0,120.0,Gran Formato,Papel fotográfico 150x60 cm
-86,Impresión en Rígido (1.22x2.44m),Gran Formato,1400.0,Pza,1400.0,1400.0,1400.0,1400.0,Gran Formato,Impresión directa en rígidos placa completa
-87,DTF Textil 58x100 cm (Metro),DTF & Sublimación,280.0,Metro,280.0,280.0,280.0,280.0,DTF,DTF textil metro lineal 58x100
-88,DTF UV 58x100 cm (Metro),DTF & Sublimación,650.0,Metro,650.0,650.0,650.0,650.0,DTF,DTF UV metro lineal 58x100
-89,DTF UV 28x100 cm,DTF & Sublimación,380.0,Metro,380.0,380.0,380.0,380.0,DTF,DTF UV 28cm x 100cm
-90,DTF UV Tabloide (27x43 cm),DTF & Sublimación,230.0,Pza,230.0,230.0,230.0,230.0,DTF,DTF UV planilla tabloide
-91,DTF UV Carta (21x27 cm),DTF & Sublimación,190.0,Pza,190.0,190.0,190.0,190.0,DTF,DTF UV planilla carta
-92,Taza Blanco 11oz a Todo Color,Sublimación,28.0,Pza,28.0,28.0,28.0,28.0,Sublimacion,Taza blanca 11oz impresa
-93,Taza Fondo Color 11oz,Sublimación,50.0,Pza,50.0,50.0,50.0,50.0,Sublimacion,Taza con fondo de color 11oz
-94,Taza Térmica 11oz,Sublimación,60.0,Pza,60.0,60.0,60.0,60.0,Sublimacion,Taza mágica / térmica 11oz
-95,Taza Metálica Color,Sublimación,60.0,Pza,60.0,60.0,60.0,60.0,Sublimacion,Taza metálica promocional
-96,Rompecabezas Sublimado,Sublimación,50.0,Pza,50.0,50.0,50.0,50.0,Sublimacion,Rompecabezas personalizado
-97,Mouse Pad Sublimado,Sublimación,50.0,Pza,50.0,50.0,50.0,50.0,Sublimacion,Mouse pad sublimado
-98,Gorra con Sublimación,Sublimación,45.0,Pza,45.0,45.0,45.0,45.0,Sublimacion,Gorra tipo trucker sublimada
-99,Fotobotón 5.5cm diámetro,Promocionales,8.0,Pza,8.0,8.0,8.0,8.0,Promocional,Fotobotón publicitario 5.5cm
-100,Fotobotón 7.5cm diámetro,Promocionales,9.0,Pza,9.0,9.0,9.0,9.0,Promocional,Fotobotón publicitario 7.5cm
-101,Credencial PVC (Pqte 10 pzas),Promocionales,15.0,Pza,15.0,15.0,15.0,15.0,Promocional,Credencial PVC impresión alta calidad
-102,Millar de Imanes 9x5 cm,Promocionales,1500.0,Millar,1500.0,1500.0,1500.0,1500.0,Promocional,Millar imán publicitario 9x5cm
-103,100 Imanes 9x5 cm,Promocionales,280.0,Pza,280.0,280.0,280.0,280.0,Promocional,Cien imanes publicitarios 9x5cm
+cod,Producto,rango1,rango2,rango3,rango4,tipo,Categoria
+PRO-01,Taza 11oz Blanca (Lisa),85.0,55.0,45.0,38.0,pieza,Promocionales
+PRO-02,Taza Fondo Color 11oz,95.0,65.0,55.0,48.0,pieza,Promocionales
+PRO-03,Taza Térmica / Mágica,120.0,85.0,75.0,68.0,pieza,Promocionales
+PRO-04,Taza Metálica Color,130.0,95.0,85.0,78.0,pieza,Promocionales
+PRO-05,Rompecabezas Personalizado,110.0,80.0,70.0,62.0,pieza,Promocionales
+PRO-06,Mouse Pad Sublimado,90.0,65.0,55.0,48.0,pieza,Promocionales
+PRO-07,Gorra con Sublimación,95.0,70.0,60.0,52.0,pieza,Promocionales
+PRO-08,Fotobotón 5.5cm,45.0,25.0,18.0,12.0,pieza,Promocionales
+PRO-09,Fotobotón 7.5cm,50.0,28.0,20.0,14.0,pieza,Promocionales
+PRO-10,Credencial PVC (Pqte 10),120.0,90.0,75.0,65.0,paquete,Promocionales
+DTF-01,DTF Textil (Metro Lineal 58x100cm),350.0,300.0,280.0,250.0,metro,DTF
+DTF-02,DTF UV (Metro Lineal 58x100cm),750.0,700.0,650.0,600.0,metro,DTF
+DTF-03,DTF UV 28x100cm,450.0,400.0,380.0,350.0,metro,DTF
+DTF-04,DTF UV Planilla Tabloide (27x43cm),280.0,250.0,230.0,210.0,pieza,DTF
+DTF-05,DTF UV Planilla Carta (21x27cm),220.0,200.0,190.0,175.0,pieza,DTF
+GRA-01,Lona Front 13 oz (M²),80.0,55.0,45.0,38.0,m2,Gran Formato
+GRA-02,Lona Backlite (M²),150.0,120.0,100.0,90.0,m2,Gran Formato
+GRA-03,Lona Mesh (M²),220.0,180.0,160.0,140.0,m2,Gran Formato
+GRA-04,Tela Banner (M²),220.0,180.0,165.0,150.0,m2,Gran Formato
+GRA-05,Película Backlite (M²),250.0,200.0,180.0,160.0,m2,Gran Formato
+GRA-06,Floor Graphic (M²),380.0,320.0,290.0,260.0,m2,Gran Formato
+GRA-07,Vinil Brillante / Mate (M²),120.0,90.0,75.0,65.0,m2,Gran Formato
+GRA-08,Vinil Transparente (M²),140.0,110.0,90.0,80.0,m2,Gran Formato
+GRA-09,Vinil Microperforado (M²),250.0,200.0,180.0,160.0,m2,Gran Formato
+GRA-10,Vinil Electrostático (M²),200.0,160.0,140.0,120.0,m2,Gran Formato
+DIG-01,Bond 75g (Carta),6.0,4.0,2.5,1.8,pieza,Impresión Digital
+DIG-02,Bond 75g (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
+DIG-03,Bond 90g (Carta),6.0,4.0,2.5,1.5,pieza,Impresión Digital
+DIG-04,Bond 90g (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
+DIG-05,Couché 150g Solo Frente (Carta),8.0,6.0,4.5,3.0,pieza,Impresión Digital
+DIG-06,Couché 150g Solo Frente (Tabloide),15.0,10.0,8.0,6.0,pieza,Impresión Digital
+DIG-07,Couché 300g Solo Frente (Tabloide),22.0,16.0,14.0,12.0,pieza,Impresión Digital
+DIG-08,Couché Adhesivo UPM (Tabloide),20.0,15.0,12.0,10.0,pieza,Impresión Digital
+DIG-09,Papel Adhesivo Plateado / Dorado,30.0,24.0,21.0,19.0,pieza,Impresión Digital
+DIG-10,Polipropileno Blanco / Transparente,35.0,28.0,25.0,23.0,pieza,Impresión Digital
+DIG-11,Laminado Mate / Brillante (Tabloide),10.0,7.0,5.0,4.0,pieza,Impresión Digital
+DIG-12,Laminado Soft Touch (Tabloide),15.0,11.0,9.0,8.0,pieza,Impresión Digital
+DIG-13,Encapsulado Carta 5mil,45.0,35.0,30.0,25.0,pieza,Impresión Digital
+DIG-14,Encapsulado Tabloide 5mil,80.0,65.0,60.0,57.0,pieza,Impresión Digital
+DIG-15,Tarjetas Couche 4x1 (Millar),150.0,130.0,120.0,110.0,millar,Offset / Offset Digital
+DIG-16,Tarjetas Laminadas 4x4 (Millar),250.0,210.0,190.0,180.0,millar,Offset / Offset Digital
+DIG-17,Volantes 1/2 Carta 4x1 (Millar),350.0,300.0,280.0,270.0,millar,Offset / Offset Digital
+DIG-18,Volantes Carta 4x1 (Millar),650.0,580.0,550.0,540.0,millar,Offset / Offset Digital
+DIG-19,Remisión 1/2 Carta Original y Copia,1200.0,1050.0,980.0,950.0,pieza,Offset / Offset Digital
+DIG-20,Recetas Médicas (Talonario Original),700.0,620.0,590.0,580.0,pieza,Offset / Offset Digital
